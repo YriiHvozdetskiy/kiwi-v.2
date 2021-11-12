@@ -1,0 +1,15 @@
+<header class="header">
+	<div class="header__inner app__layout">
+		<h1 class="title header__slogan">@@slogan</h1>
+		<p>це текст в</p>
+		@@include( 'templates/input/input.html', {
+		"number": "number",
+		"text": "text"
+		})
+		<!--примінеться те що прописано в type @@-->
+		@@include( 'templates/button/button.html', {
+		"text": "це текст кнопки",
+		"title": "це title"
+		})
+	</div>
+</header>
